@@ -5,15 +5,15 @@
 <meta name="viewport" content="width=device-width, maximum-scale=1">
 <title>Unique</title>
 <link rel="icon" href="favicon.png" type="image/png">
-<link href="bootstrap.min.css" rel="stylesheet" type="text/css">
-<link href="style.css" rel="stylesheet" type="text/css"> 
-<link href="font-awesome.css" rel="stylesheet" type="text/css"> 
-<link href="animate.css" rel="stylesheet" type="text/css">
+<link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+<link href="css/style.css" rel="stylesheet" type="text/css"> 
+<link href="css/font-awesome.css" rel="stylesheet" type="text/css"> 
+<link href="css/animate.css" rel="stylesheet" type="text/css">
  
 <!--[if lt IE 9]>
-    <script src="respond-1.1.0.min.js"></script>
-    <script src="html5shiv.js"></script>
-    <script src="html5element.js"></script>
+    <script src="js/respond-1.1.0.min.js"></script>
+    <script src="js/html5shiv.js"></script>
+    <script src="js/html5element.js"></script>
 <![endif]-->
  
 </head>
@@ -23,7 +23,7 @@
 <header id="header_wrapper">
   <div class="container">
     <div class="header_box">
-      <div class="logo"><a href="#"><img src="cdulogo.png" width="70px" height="70px" alt="logo"><font style="color:white; font-size:30px">Journal of Innovative Exploration in Engineering & Technology</font></a></div>
+      <div class="logo"><a href="#"><img src="img/cdulogo.png" width="70px" height="70px" alt="logo"><font style="color:white; font-size:30px">Journal of Innovative Exploration in Engineering & Technology</font></a></div>
 	  <nav class="navbar navbar-inverse" role="navigation">
       <div class="navbar-header">
         <button type="button" id="nav-toggle" class="navbar-toggle" data-toggle="collapse" data-target="#main-nav"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
@@ -66,7 +66,7 @@
            
          </div>
          <div class="col-lg-5 col-lg-5 pull-right">
-          <img src="coverpage.jpg" width="400" height="500" class="bannerImg zoomIn wow animated" alt="" />
+          <img src="img/coverpage.jpg" width="400" height="500" class="bannerImg zoomIn wow animated" alt="" />
        </div>
       </div>
     </div>
@@ -80,11 +80,44 @@
     <h2>About Us</h2>
     <div class="inner_section">
 	    <div class="row">
-        <div class=" col-lg-4 col-md-4 col-sm-4 col-xs-12 pull-right"><img src="about-img.jpg" class="img-circle delay-03s animated wow zoomIn" alt=""><img src="management.PNG" class="img-circle delay-03s animated wow zoomIn" alt=""></div>
+        <div class=" col-lg-4 col-md-4 col-sm-4 col-xs-12 pull-right">
+          
+          <div id="gridimg">
+            <figure>
+              <img src="img/cpsir.jpeg" />
+              <figcaption>
+                <p>Dr. Ch. V. Purushotham Reddy</p>
+                <p>Founder & Chancellor</p>
+              </figcaption>
+            </figure>
+            <figure>
+              <img src="img/suvarna.jpeg" />
+              <figcaption>
+                <p>Ch. Suvarna Devi</p>
+                <p>Secretary</p>
+              </figcaption>
+            </figure>
+            <figure>
+              <img src="img/provc.jpeg" />
+              <figcaption>
+                <p>Dr. Ch. Nagasuresh Prasad</p>
+                <p>Pro-Vice Chancellor</p>
+              </figcaption>
+            </figure>
+            <figure>
+              <img src="img/vp.jpeg" />
+              <figcaption>
+                <p>Mr. E. Vikram Reddy</p>
+                <p>Vice President</p>
+              </figcaption>
+            </figure>
+          </div>
+          
+          </div>
       	
         <div class=" col-lg-7 col-md-7 col-sm-7 col-xs-12 pull-left">
         	<div class=" delay-01s animated fadeInDown wow animated">
-			<h3><strong>We strongly believe that academic excellence creates knowledge society.</strong></h3><br/> 
+			<h3><strong>Published by Chaitanya Press of Chaitanya (Deemed to be University)</strong></h3><br/> 
             <p style="text-align: justify">Over the past three decades <strong>Chaitanya Institutions</strong> have made steady and phenomenal progress in imparting quality education and research with several awards and accolades. Our vision is to take <strong> Chaitanya Deemed to be University </strong>to greater heights with good digital governance and sound academic, research standards. We want to make CDU a Center of Academic Excellence with creativity, productivity and accountability for knowledge society.
               Our University is Research and Innovative driven one. The managment ment facilitates both teachers and the students to present their research papers in seminars and symposia and also publication in national and international journals. 
             </p><br>
@@ -93,7 +126,7 @@
               
               One among five Journals of Chaitanya Deemed to be University from the Faculty of Engineering & Technology is <strong>"Journal of Innovative Exploration in Engineering & Technology"</strong>. Its peer-reviewed annual open access free journal to publish research papers in Engineering and Technology. </p>
 </div>
-<div class="work_bottom"> <span>Want to know more..</span> <a href="#contact" class="contact_btn">Contact Us</a> </div>       
+<div class="work_bottom"> <span>Want to know more..</span> <a href="http://www.chaitanya.edu.in/contact/" class="contact_btn">Contact Us</a> </div>       
 	      </div>
       	
       </div>
@@ -111,14 +144,15 @@
       <h2>Aim & Scope</h2>
       <div class="inner_section">
         <div class="row">
-          <div class=" col-lg-4 col-md-4 col-sm-4 col-xs-12 pull-right"><img src="about-img.jpg" class="img-circle delay-03s animated wow zoomIn" alt=""><img src="management.PNG" class="img-circle delay-03s animated wow zoomIn" alt=""></div>
+          <div class=" col-lg-4 col-md-4 col-sm-4 col-xs-12 pull-right"><img src="img/building.jpg" class="img-circle delay-03s animated wow zoomIn" alt="" style="width:700px; height:500px; object-fit:cover;"></div>
           
           <div class=" col-lg-7 col-md-7 col-sm-7 col-xs-12 pull-left">
             <div class=" delay-01s animated fadeInDown wow animated">
         <h3><strong>Aim & Scope of Journal.</strong></h3><br/> 
+         
               <p style="text-align: justify">The goal of the peer-reviewed publication JIEET is to publish and disseminate original research articles on the most recent advancements in all areas of engineering science and technology. The journal publishes original studies that advance engineering technology and instruction while also helping us understand engineering science. The articles may be experimental, theoretical (including computational), or both. The submission must have never been published before and should not be in the works for another publication. Standard double-blind peer review is still used by JIEET. Due to the double-blind approach, neither the author nor the reviewer are aware of the other's identity. JIEET is an open access publication, thus readers and their institutions are not charged to access the journal's contents. Under the condition that they are properly acknowledged and cited, open access supports users' rights to read, download, copy, distribute, print, search, or link to the complete texts of these articles. JIEET releases one issue annually. The JIEET publication fees cover the paper acceptance, peer review, editing, publication, and uploading to the JIEET website .A maximum of 8-12 pages should be included in each paper. There is no publication charges to publish in this journal. </p>
   </div>
-  <div class="work_bottom"> <span>Want to know more..</span> <a href="#contact" class="contact_btn">Contact Us</a> </div>       
+    
           </div>
           
         </div>
@@ -138,9 +172,9 @@
       <div class="inner_section">
         <div class="container">
           <ul class="nav nav-pills">
+            <li><a data-toggle="pill" href="#menu2">Submit Your Paper</a></li>
             <li class="active"><a data-toggle="pill" href="#home">Author guidelines</a></li>
             <li><a data-toggle="pill" href="#menu1">Reviewer Guidelines</a></li>
-            <li><a data-toggle="pill" href="#menu2">Submit Your Paper</a></li>
             <li><a data-toggle="pill" href="#menu3">Publication Ethics</a></li>
             <li><a data-toggle="pill" href="#menu4">Peer Review Process</a></li>
           </ul>
@@ -360,8 +394,72 @@
               <p>Reviewers are encouraged to comment on authors&rsquo; declared conflicts of interest. If there are concerns that authors have not fully disclosed financial, institutional, commercial, personal, ideological, or academic interests, this should be raised in the reviewer report.</p></p>
             </div>
             <div id="menu2" class="tab-pane fade">
-              <h3>Menu 2</h3>
-              <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.</p>
+              <article>
+                <div class="post-heading">
+                  <h4><i class="fa fa-globe"></i>Article Submission Form</h4>	
+                </div>
+              <form action="insert.php" method="post" role="form" class="register-form" enctype="multipart/form-data">
+        <h2>Please Upload Article </h2>
+        <hr class="colorgraph">
+        <div class="row">
+          <div class="col-xs-12 col-sm-12 col-md-12">
+            <div class="form-group">
+            <label>Author's Full Name</label>
+                          <input type="text" name="first_name" id="first_name" class="form-control input-lg" placeholder="Full Name" tabindex="1" required="">
+            </div>
+          </div>
+        <!--	<div class="col-xs-12 col-sm-6 col-md-6">
+            <div class="form-group">
+            <label>Last Name</label>
+              <input type="text" name="last_name" id="last_name" class="form-control input-lg" placeholder="Last Name" tabindex="2" required>
+            </div>
+          </div>-->
+        </div>
+        
+        <!--<div class="form-group">
+        <label>Author's Affiliation</label>
+          <input type="text" name="A_A" id="A_A" class="form-control input-lg" placeholder="Author's Affiliation" tabindex="3" required>
+        </div>-->
+        <div class="form-group">
+        <label>Paper/Article Title</label>
+          <input type="text" name="display_name" id="display_name" class="form-control input-lg" placeholder="Paper/Article Title" tabindex="3" required="">
+        </div>
+        <div class="form-group">
+        <label>Email</label>
+          <input type="email" name="email" id="email" class="form-control input-lg" placeholder="Email Address" tabindex="4" required="">
+        </div>
+      <!--	<div class="form-group">
+        <label>Abstract</label>
+              <textarea name="abs" class="form-control" rows="8" placeholder="* Paste your article/paper abstract here.." required></textarea>
+            </div>
+            <div class="form-group">
+        <label>Keywords</label>
+          <input type="text" name="keyw" id="keyw" class="form-control input-lg" placeholder="Key Words" tabindex="4" required>
+        </div>-->
+        
+          <div class="form-group">
+        <label>Subject Category</label>
+          <input type="text" name="Subc" id="Subc" class="form-control input-lg" placeholder="Subject Category" tabindex="4" required="">
+        </div>
+            
+            <div class="form-group">
+            <label>File(.pdf/.docx)</label>
+          <input type="file" name="txtFile" id="txtFile" class="form-control input-lg" placeholder="Upload .pdf or .docx file only.." tabindex="4" required="">
+        </div>
+        
+        <div class="row">
+          
+          
+        </div>
+        
+        <hr class="colorgraph">
+        <div class="row">
+          <div class="col-xs-12 col-md-6"><input type="submit" value="Submit" class="btn btn-theme btn-block btn-lg" tabindex="7" name="submit"></div>
+          
+        </div>
+      </form>	
+                   
+  </article>
             </div>
             <div id="menu3" class="tab-pane fade" style="text-align: justify;">
               <h3>Publication Ethics</h3>
@@ -572,11 +670,13 @@
   <div class="container">
    <h3>The following lists the final revised papers grouped in their volumes and issues. Their corresponding
     preprints and discussion comments are shown alongside the articles.</h3>
-    <div>
+    <br/>
+    <br/>
+    <div >
       <ul>
         <li>
             <span>
-            <a href="issues/Vol01_Issue01.pdf"> Volume-1, Issue 1</a>, pages 016–084
+            <a href="issues/Vol01_Issue01.pdf"> <h2 style="color:red"><ul>Volume-1, Issue 1</ul></h2></a>, pages 016–084
                  </span>
         </li>
       </ul>
@@ -766,14 +866,14 @@
   </div>
 </footer>
 
-<script type="text/javascript" src="jquery-1.11.0.min.js"></script>
-<script type="text/javascript" src="bootstrap.min.js"></script>
-<script type="text/javascript" src="jquery-scrolltofixed.js"></script>
-<script type="text/javascript" src="jquery.nav.js"></script> 
-<script type="text/javascript" src="jquery.easing.1.3.js"></script>
-<script type="text/javascript" src="jquery.isotope.js"></script>
-<script type="text/javascript" src="wow.js"></script> 
-<script type="text/javascript" src="custom.js"></script>
+<script type="text/javascript" src="js/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/jquery-scrolltofixed.js"></script>
+<script type="text/javascript" src="js/jquery.nav.js"></script> 
+<script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
+<script type="text/javascript" src="js/jquery.isotope.js"></script>
+<script type="text/javascript" src="js/wow.js"></script> 
+<script type="text/javascript" src="js/custom.js"></script>
 
 </body>
 </html>
